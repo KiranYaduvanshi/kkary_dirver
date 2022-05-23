@@ -33,8 +33,9 @@ class AppColors {
   static const Color green = Color(0xFF07D68B);
   static const Color greenDark = Color(0xFF40AD5C);
   static const Color greenLight = Color(0xFFE0F2E4);
-
-
+  static const Color lightPink = Color(0xFFFFEFEF);
+  static const Color extraLightBlue = Color(0xFFF3F3F3);
+  static const Color lightBlueLight = Color(0xFFE9F6FF);
 
   //Mart Home
   static const Color purple = Color(0xffD28DD8);
