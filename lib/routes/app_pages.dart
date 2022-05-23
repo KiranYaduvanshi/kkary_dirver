@@ -3,7 +3,6 @@ import 'package:driver/home/screens/add_bank_account.dart';
 import 'package:driver/home/screens/driver_requirments.dart';
 import 'package:driver/home/screens/earing_page.dart';
 import 'package:driver/home/screens/home_page.dart';
-import 'package:driver/modules/views/home.dart';
 import 'package:driver/routes/app_routes.dart';
 import 'package:get/get.dart';
 
