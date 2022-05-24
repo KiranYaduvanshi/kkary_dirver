@@ -1,5 +1,6 @@
 import 'package:driver/routes/app_routes.dart';
 import 'package:driver/utils/app_colors.dart';
+import 'package:driver/utils/image_paths.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -46,7 +47,7 @@ class DriverStepTwo extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(10),
                   child: Image.asset(
-                    "assets/images/mask_group.png",
+                    ImagePaths.user,
                     height: 150,
                     width: 150,
                     fit: BoxFit.cover,

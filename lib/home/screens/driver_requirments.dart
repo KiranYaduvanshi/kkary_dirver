@@ -1,5 +1,7 @@
+import 'package:driver/routes/app_routes.dart';
 import 'package:driver/utils/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class DriverRequirments extends StatelessWidget {
@@ -44,23 +46,28 @@ class DriverRequirments extends StatelessWidget {
             Radius.circular(10),
           ),
           boxShadow: [BoxShadow(color: Colors.grey.shade100, blurRadius: 1)]),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              title.text.make(),
-              subTitle.text.make(),
-            ],
-          ),
-          Icon(
-            icon,
-            size: 18,
-            color: iconColor,
-          ),
-        ],
-      ).p(16),
+      child: InkWell(
+        onTap: () {
+          Get.toNamed(AppRoutes.addBankAccount);
+        },
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                title.text.make(),
+                subTitle.text.make(),
+              ],
+            ),
+            Icon(
+              icon,
+              size: 18,
+              color: iconColor,
+            ),
+          ],
+        ).p(16),
+      ),
     ).py(6).px(12);
   }
 }
