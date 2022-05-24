@@ -27,6 +27,7 @@ class AppColors {
 
   static const Color red = Color(0xffF6460D);
   static const Color parrotgreen = Color(0xFF8EAB3B);
+  static const Color yellowGold = Color(0xFFFFCC47);
   static const Color gold = Color(0xFFFFAA29);
 
   //Green
