@@ -8,4 +8,5 @@ class AppRoutes {
   static const String driverRequiments = "/driverRequiments";
   static const String addBankAccount = "/addBankAccount";
   static const String earing = "/earining";
+  static const String homeDriver = "/homeDriver";
 }
