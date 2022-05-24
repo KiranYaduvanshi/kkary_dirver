@@ -28,4 +28,6 @@ class ImagePaths {
   static const String ic_info = "assets/images/ic_info.png";
   static const String ic_taxinfo = "assets/images/ic_taxinfo.png";
   static const String ic_notifications = "assets/images/ic_notifications.png";
+  static const String license = "assets/images/license.png";
+  static const String user = "assets/images/user.png";
 }

@@ -56,17 +56,15 @@ class DriverHome extends StatelessWidget {
   }
 
   Widget offline() {
-    return
-        Container(
-          color: Colors.red,
-          height: Get.height * 1,
-      child:
-        Column(
-          children: [
-            newRequests(),
-            rideRequests().expand(),
-          ],
-        ),
+    return Container(
+      color: Colors.grey.shade100,
+      height: Get.height * 1,
+      child: Column(
+        children: [
+          newRequests(),
+          rideRequests().expand(),
+        ],
+      ),
     );
   }
 
@@ -81,14 +79,12 @@ class DriverHome extends StatelessWidget {
           ),
           panel: homeInfo(),
           body: Container(
-            color: Colors.red,
-            child: "Map Is Going To Be Here".text.black.make(),
+            color: Colors.white,
+            child:
+                Center(child: "Map Is Going To Be Here".text.bold.black.make()),
           ),
         ),
-        SizedBox(
-            height: 70,
-            width: Get.width*1,
-            child: youOffline()),
+        SizedBox(height: 70, width: Get.width * 1, child: youOffline()),
       ],
     );
   }
