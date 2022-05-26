@@ -14,4 +14,9 @@ class AppRoutes {
   static const String history = "/history";
   static const String rating = "/rating";
   static const String notifications = "/notifications";
+  static const String acceptAndGo = "/acceptAndGo";
+  static const String picUpLocation = "/pickUpLocation";
+  static const String user = "assets/images/user.png";
+  static const String reachedDestination = "/reachedDestination";
+  static const String homeLaunch = "/homeLaunch";
 }
