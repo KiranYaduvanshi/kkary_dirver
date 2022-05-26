@@ -9,4 +9,9 @@ class AppRoutes {
   static const String addBankAccount = "/addBankAccount";
   static const String earing = "/earining";
   static const String homeDriver = "/homeDriver";
+  static const String acceptAndGo = "/acceptAndGo";
+  static const String picUpLocation = "/pickUpLocation";
+  static const String user = "assets/images/user.png";
+  static const String reachedDestination = "/reachedDestination";
+  static const String homeLaunch = "/homeLaunch";
 }

@@ -49,6 +49,7 @@ class AppStrings {
   static const String Er403 = "Forbidden : Error 403";
   static const String Er500 = "Internal Server Error : Error 500";
   static const String ErrDefault = "Something went wrong";
+  static const String reachingDestination = "Reaching Destination in";
 
   static const String clickToUploadImg = "Click Here to Upload Image ";
 
@@ -70,7 +71,6 @@ class AppStrings {
   static const String USER_BUSINESS = "userBusiness";
 }
 
-
-class AppConstants{
+class AppConstants {
   static const deviceToken = "device-token";
 }
