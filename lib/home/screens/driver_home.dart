@@ -235,10 +235,10 @@ class DriverHome extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset(
-            ImagePaths.ic_setting,
-            color: Colors.black,
+            ImagePaths.moon,
             height: 50,
             width: 50,
+            
             fit: BoxFit.cover,
           ).p(8),
           Column(
