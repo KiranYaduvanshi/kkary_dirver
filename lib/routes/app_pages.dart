@@ -19,24 +19,18 @@ import 'package:driver/home/screens/driver_requirments.dart';
 import 'package:driver/home/screens/earing_page.dart';
 import 'package:driver/home/screens/history.dart';
 import 'package:driver/home/screens/home_page.dart';
-<<<<<<< HEAD
 import 'package:driver/home/screens/loginScreen.dart';
 import 'package:driver/home/screens/notification.dart';
 import 'package:driver/home/screens/rating.dart';
-=======
 import 'package:driver/home/screens/pick_up_location.dart';
 import 'package:driver/home/screens/reached_finished.dart';
->>>>>>> 4a7097d35923aa0391dd2d02c1983edc31c6f1b9
+import 'package:driver/home/screens/pick_up_location.dart';
+import 'package:driver/home/screens/reached_finished.dart';
 import 'package:driver/routes/app_routes.dart';
 import 'package:get/get.dart';
 
 class AppPages {
-<<<<<<< HEAD
   static const homeRoute = AppRoutes.homeDriver;
-=======
-  static const homeRoute = AppRoutes.picUpLocation;
->>>>>>> 4a7097d35923aa0391dd2d02c1983edc31c6f1b9
-
   static final routes = [
     GetPage(
       name: AppRoutes.home,
@@ -82,6 +76,7 @@ class AppPages {
     ),
     GetPage(
 <<<<<<< HEAD
+<<<<<<< HEAD
       name: AppRoutes.rideDetail,
       page: () => DriverDetails(),
       binding: DriverDetailsBinding(),
@@ -98,8 +93,9 @@ class AppPages {
     GetPage(
       name: AppRoutes.notifications,
       page: () =>const NotificationScreen(),
-      binding: NotificationBinding()
-=======
+      binding: NotificationBinding(),
+    ),
+    GetPage(
       name: AppRoutes.acceptAndGo,
       page: () => AcceptAndGo(),
       binding: MapBinding(),
@@ -118,7 +114,6 @@ class AppPages {
       name: AppRoutes.homeLaunch,
       page: () => HomeLaunchPage(),
       binding: HomeLaunchBinding(),
->>>>>>> 4a7097d35923aa0391dd2d02c1983edc31c6f1b9
     ),
   ];
 }
