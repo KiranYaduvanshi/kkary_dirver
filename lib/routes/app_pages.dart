@@ -75,8 +75,6 @@ class AppPages {
       page: () => ReviewDocument(),
     ),
     GetPage(
-<<<<<<< HEAD
-<<<<<<< HEAD
       name: AppRoutes.rideDetail,
       page: () => DriverDetails(),
       binding: DriverDetailsBinding(),

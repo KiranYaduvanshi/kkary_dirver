@@ -31,4 +31,5 @@ class ImagePaths {
   static const String license = "assets/images/license.png";
   static const String user = "assets/images/user.png";
   static const String homeLaunch = "assets/images/home_img.png";
+    static const String moon = "assets/images/moon.png";
 }
