@@ -48,6 +48,7 @@ dependencies:
   geolocator: ^5.3.1
   sliding_up_panel: ^2.0.0+1
   date_picker_timeline: ^1.2.3
+  intl: ^0.17.0
 
 
 
