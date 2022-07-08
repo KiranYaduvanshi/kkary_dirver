@@ -24,13 +24,12 @@ import 'package:driver/home/screens/notification.dart';
 import 'package:driver/home/screens/rating.dart';
 import 'package:driver/home/screens/pick_up_location.dart';
 import 'package:driver/home/screens/reached_finished.dart';
-import 'package:driver/home/screens/pick_up_location.dart';
-import 'package:driver/home/screens/reached_finished.dart';
+import 'package:driver/home/screens/test_animation.dart';
 import 'package:driver/routes/app_routes.dart';
 import 'package:get/get.dart';
 
 class AppPages {
-  static const homeRoute = AppRoutes.homeDriver;
+  static const homeRoute = AppRoutes.homeLaunch;
   static final routes = [
     GetPage(
       name: AppRoutes.home,
@@ -112,6 +111,10 @@ class AppPages {
       name: AppRoutes.homeLaunch,
       page: () => HomeLaunchPage(),
       binding: HomeLaunchBinding(),
+    ),
+    GetPage(
+      name: "/test2",
+      page: () => TestAnimation(),
     ),
   ];
 }
