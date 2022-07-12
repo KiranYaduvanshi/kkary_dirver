@@ -7,6 +7,7 @@ import 'package:driver/authentication/views/driver/review_documnets.dart';
 import 'package:driver/home/binding/home_driver_binding.dart';
 import 'package:driver/home/binding/map_binding.dart';
 import 'package:driver/home/binding/pick_up_binding.dart';
+import 'package:driver/home/binding/profile_screen_binding.dart';
 import 'package:driver/home/screens/acceptAndGo.dart';
 import 'package:driver/home/screens/add_bank_account.dart';
 import 'package:driver/home/screens/driver_home.dart';
@@ -14,12 +15,13 @@ import 'package:driver/home/screens/driver_requirments.dart';
 import 'package:driver/home/screens/earing_page.dart';
 import 'package:driver/home/screens/home_page.dart';
 import 'package:driver/home/screens/pick_up_location.dart';
+import 'package:driver/home/screens/profile_screen.dart';
 import 'package:driver/home/screens/reached_finished.dart';
 import 'package:driver/routes/app_routes.dart';
 import 'package:get/get.dart';
 
 class AppPages {
-  static const homeRoute = AppRoutes.picUpLocation;
+  static const homeRoute = AppRoutes.profileScreen;
 
   static final routes = [
     GetPage(
@@ -78,6 +80,11 @@ class AppPages {
       name: AppRoutes.homeLaunch,
       page: () => HomeLaunchPage(),
       binding: HomeLaunchBinding(),
+    ),
+    GetPage(
+      name: AppRoutes.profileScreen,
+      page: () => ProfileScreen(),
+      binding: ProfileScreenBinding(),
     ),
   ];
 }

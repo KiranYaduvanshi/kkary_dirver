@@ -1,9 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rowthtech.driver">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+ 
 
 
    <application
@@ -13,8 +17,10 @@
 
 
         <meta-data android:name="com.google.android.geo.API_KEY"
-             android:value="AIzaSyBLYmcOQ7wzQMq7clHs0024v9CoUVKjgag"
+             android:value="AIzaSyDQf-1hgO0ec2V9Uyj6jgped_va51yFx5g"
     />
+    <!-- android:value="AIzaSyDGuJ7Ikh6JF4kB5hqtVJKX8h0l7UpN-Yo"-->
+
 
         <activity
             android:name=".MainActivity"

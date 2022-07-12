@@ -14,4 +14,5 @@ class AppRoutes {
   static const String user = "assets/images/user.png";
   static const String reachedDestination = "/reachedDestination";
   static const String homeLaunch = "/homeLaunch";
+  static const String profileScreen = "/profileScreen";
 }
