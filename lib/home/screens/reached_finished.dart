@@ -11,6 +11,7 @@ import 'package:velocity_x/velocity_x.dart';
 
 class ReachedAndFinish extends StatelessWidget {
   MapImplementController controller = Get.find();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
